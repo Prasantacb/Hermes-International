@@ -1,0 +1,116 @@
+/* web-site name: Hermes */
+/* degine by: JB & PCB */
+
+/* --------------utility------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    margin: auto;
+    max-width: 1150px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* ----------- main style start in hear------------ */
+
+/* fist dialog style start  */
+.fistDialog{
+    background-image: url("../img/Ellipse 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fistDialog .fistContentArea{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.fistDialog .fistContentArea .leftSite h1{
+    font-family: Inter;
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.fistDialog .fistContentArea .leftSite p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.fistDialog .fistContentArea .leftSite button{
+    background-color:  #407BFF;
+    border: none;
+}
+.fistDialog .fistContentArea .leftSite button:hover{
+    background-color: #5689FB;
+}
+.fistDialog .fistContentArea .leftSite button > a{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 8px;
+    color: #FFFFFF;
+}
+.fistDialog .fistContentArea .image img {
+    width: 85%;
+}
+.fistDialog .fistContentArea .image{
+    text-align: center;
+}
+/* fist dialog style stop */
+/* sceond Dialog style start  */
+.sceondDialog .sceondContentArea{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.sceondDialog .sceondContentArea .rightSite2 h1{
+    font-family: Inter;
+    color: #407BFF;
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.sceondDialog .sceondContentArea .rightSite2 p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.sceondDialog .sceondContentArea .rightSite2 button{
+    background-color:  #407BFF;
+    border: none;
+}
+.sceondDialog .sceondContentArea .rightSite2 button:hover{
+    background-color: #5689FB;
+}
+.sceondDialog .sceondContentArea .rightSite2 button > a{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 8px;
+    color: #FFFFFF;
+}
+/* sceond Dialog style stop */

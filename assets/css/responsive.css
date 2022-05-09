@@ -1,0 +1,78 @@
+
+@media only screen and (max-width: 1024px){
+    /* fist dialog style start  */
+    .container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    /* fist dialog style stop  */
+}
+@media only screen and (max-width: 992px){
+    /* fist dialog style start  */
+    .container{
+        max-width: 992px;
+    }
+    .fistDialog .contentArea{
+        grid-template-columns: 1fr 1fr;
+        padding: 60px 0;
+    }
+    .fistDialog .contentArea .leftSite h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    /* fist dialog style stop  */
+}
+@media only screen and (max-width: 768px){
+    /* fist dialog style start  */
+    .fistDialog .contentArea{
+        grid-template-columns: 1fr;
+        padding: 45px 20px;
+        text-align: center;
+    }
+    .fistDialog .contentArea .leftSite h1{
+        font-size: 35px;
+        line-height: 38px;
+        text-align: center;
+    }
+    .fistDialog .contentArea .leftSite p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .fistDialog .contentArea .leftSite p > span{
+        display: block;
+    }
+    .fistDialog .contentArea .image img {
+        width: 65%;
+    }
+/* fist dialog style stop  */
+}
+@media only screen and (max-width: 480px){
+   /* fist dialog style start  */
+    .fistDialog .contentArea{
+        grid-template-columns: 1fr;
+        padding: 45px 20px;
+        text-align: center;
+    }
+    .fistDialog .contentArea .leftSite h1{
+        font-size: 30px;
+        line-height: 38px;
+        text-align: center;
+    }
+    .fistDialog .contentArea .leftSite p{
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .fistDialog .contentArea .leftSite p > span{
+        display: block;
+    }
+    .fistDialog .contentArea .leftSite button > a{
+        font-size: 16px;
+        padding: 8px 6px;
+    }
+    .fistDialog .contentArea .image img {
+        width: 65%;
+    }
+   /* fist dialog style stop  */
+}
