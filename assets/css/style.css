@@ -88,7 +88,6 @@ a{
     font-size: 43px;
     font-weight: 800;
     line-height: 55px;
-    letter-spacing: 0em;
     text-align: left;
 }
 .sceondDialog .sceondContentArea .rightSite2 p{
@@ -114,3 +113,44 @@ a{
     color: #FFFFFF;
 }
 /* sceond Dialog style stop */
+
+/* our service part start */
+.hermesOurService .ourService{
+    text-align: center;
+    margin: 40px 0;
+}
+.hermesOurService .ourService .content h1{
+    font-family: Inter;
+    color: #407BFF;
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 55px;
+}
+.hermesOurService .ourService .content p{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hermesOurService .ourService .serviceCard .card{
+    width: 300px;
+}
+.hermesOurService .ourService .serviceCard .card .cardImg img{
+    width: 100%;
+}
+.hermesOurService .ourService .serviceCard .card .cardLink a{
+    background-color: #407BFF;
+    width: 100%;
+    padding: 9px 0;
+    color: white;
+}
+.hermesOurService .ourService .serviceCard .card .cardLink{
+    margin-top: -4px;
+    align-items: center;
+}
+.hermesOurService .ourService .serviceCard .card .cardLink a{
+    font-family: Inter;
+}
+/* our service part stop */
